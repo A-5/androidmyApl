@@ -24,7 +24,7 @@ public class MyActivity extends Activity {
                     .add(R.id.container, new PlaceholderFragment())
                     .commit();
         }
-        Button btn = (Button)findViewById(R.id.button);
+        final Button btn = (Button)findViewById(R.id.button);
         btn.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
